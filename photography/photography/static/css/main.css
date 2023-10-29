@@ -362,45 +362,45 @@ a:focus{
 =            features            =
 ================================*/
 
-#features{
+#service{
 	margin-top: 20px;
 	padding-top: 100px;
 	margin-bottom: 100px;
 }
-#features .header-content .title{
+#service .header-content .title{
 	font-size: 40px;
 	color: #000;
 }
-#features .header-content .info{
+#service .header-content .info{
 	font-size: 16px;
 	color: #363636;
 }
-.feature-item .content{
+.service-item .content{
 	background: #f6f6f6;
 	padding: 40px;
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
-.feature-item .content .icon{
+.service-item .content .icon{
 	font-size: 80px;
 	color: #F0394C;
 	margin-bottom: 30px;
 	line-height: 100%;
 }
-.feature-item .content .title{
+.service-item .content .title{
 	font-size: 20px;
 	color: #F0394C;
 	margin-bottom: 40px;
 	text-transform: uppercase;	
 }
-.feature-item .content:hover{
+.service-item .content:hover{
 	background-color: #F0394C; 
 	-webkit-transform: translateY(-10px);
 	transform: translateY(-10px);
 }
-.feature-item .content:hover .icon,
-.feature-item .content:hover .title,
-.feature-item .content:hover .info{
+.service-item .content:hover .icon,
+.feaserviceture-item .content:hover .title,
+.service-item .content:hover .info{
 	color: #fff;
 }
 /*-----  End of features  ------*/
@@ -411,28 +411,28 @@ a:focus{
 =            courses            =
 =================================*/
 
-#courses{
-	background: url(../img/bg/04.jpg);
+#about{
+	background: url(../img/wedding/1.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 }
-#courses .color-overlay{
+#about .color-overlay{
 	width: 100%;
 	height: 100%;
-	background: rgba(16,19,38,.8);
+	background: rgba(16,19,38,.9);
 }
-#courses .section-title{
+#about .section-title{
 	color: #fff;
 	margin-bottom: 100px;
 }
 #courses .info-part{
 	padding-right: 40px;
 }
-#courses .each-courses{
+#about .each-courses{
 	margin-bottom: 60px;
 }
-.each-courses .title{
+.each-about .title{
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #fff;
@@ -441,7 +441,7 @@ a:focus{
 	transition: all .3s;
 	
 }
-.each-courses .info{
+.each-about .info{
 	font-size: 16px;
 	-webkit-transition: all .3s;
 	transition: all .3s;
@@ -457,16 +457,16 @@ a:focus{
 
 .timing.first{margin-top: 0px;}
 
-.each-courses:hover{
+.each-about:hover{
 	cursor: pointer;
 }
-.each-courses:hover .title{
+.each-about:hover .title{
 	color: #F0394C;
 }
-.each-courses:hover .info{
+.each-about:hover .info{
 	color: #fff;
 }
-#courses .content-part{
+#about .content-part{
 	position: relative;
 	height: 100%;
 	margin-left: 30px;
@@ -665,7 +665,7 @@ a:focus{
 ==================================*/
 
 #count-down{
-	background: url(../img/bg/01.jpg) no-repeat;
+	background: url(../img/wedding/9.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -797,7 +797,7 @@ a:focus{
 =            client-feedback            =
 =======================================*/
 #client-feedback{
-	background: url(../img/bg/02.jpg);
+	background: url(../img/wedding/5.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1049,7 +1049,7 @@ a:focus{
 ===============================*/
 
 #join-us{
-	background: url(../img/bg/03.jpg);
+	background: url(../img/wedding/7.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1101,20 +1101,20 @@ a:focus{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(255, 255, 255, 1);
 	z-index: 10;
 }
 #gmap {
 	height:100%;
 }
 #contact .form-content .section-info{
-	color: #fff;
+	color: #000;
 }
 
 #contact .form input,
 #contact .form textarea{
 	border-radius: 0;
-	border: 1px solid #e0e0e0;
+	border: 1px solid #000;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	margin-bottom: 20px;
@@ -1129,11 +1129,11 @@ a:focus{
 }
 #contact .form .btn-submit{
 	background: #F0394C;
-	color: #fff;
+	color: #000;
 	padding: 12px;
 }
 #contact .form .btn-submit:hover{
-	color: #fff;
+	color: #000;
 }
 .map-content{
 	padding:0
